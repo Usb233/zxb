@@ -1,5 +1,5 @@
  
-  body {color:#FFFFFF; font-size:50px; background-image:images/background.gif;}
+  body {color:#FFFFFF; font-size:50px; background-image:url(images/background.gif);}
     h1 {font-family:cursive; color:#4CAF50;}
     p {text-indent:2em;}
   #all  {width:950px; margin:auto; background:#03A9F4;}
