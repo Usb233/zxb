@@ -1,9 +1,9 @@
  
-  body {color:#FFFFFF; font-size:40px; background-image:url(images/background.gif);}
-    h1 {font-family:cursive; color:#4CAF50;}
+  body {color:#FFFFFF; font-size:20px; background-image:url(images/background.gif);}
+    h1 {font-family:cursive; color:#4CAF50; font-size:40px;}
     p {text-indent:2em;}
   #all  {width:850px; margin:auto; background:#03A9F4;}
     #head {font-size:30px; background:#2196F3;}
-      #main {font-size:20px;} 
-      #foot {text-align:right; font-size:20px;}
-	  #code {font-size:20px; text-indent:2em;}
+      #main {} 
+      #foot {text-align:right;}
+	  #code {text-indent:2em;}
