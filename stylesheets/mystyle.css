@@ -1,8 +1,9 @@
  
-  body {color:#FFFFFF; font-size:50px;}
+  body {color:#FFFFFF; font-size:50px; background-image:images/background.gif;}
     h1 {font-family:cursive; color:#4CAF50;}
     p {text-indent:2em;}
-  #all  {width:800px; margin:auto; background:#03A9F4;}
+  #all  {width:950px; margin:auto; background:#03A9F4;}
     #head {font-size:60px; background:#2196F3;}
       #main {font-size:40px;} 
       #foot {text-align:right; font-size:40px;}
+	  #code {font-size:35px; text-indent:2em}
