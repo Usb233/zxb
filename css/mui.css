@@ -2,6 +2,7 @@
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
+ * 本css已经多次修改😂?,,非原版.
  */
 html {
   font-family: sans-serif;
@@ -11,9 +12,10 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
+/*=========以下为个人添加======*/
 #foot {width:22%;
 	   margin-left:auto;}
+span {color:#2196F3}
 
 
 
@@ -22,12 +24,15 @@ html {
 
 
 
+
+
+/*===========分割线===========*/
 /**
  * Remove default margin.
  */
 body {
   margin:auto;
-  background-imag:url(/images/background3a.gif);;
+  background-imageeeeee:url(/images/background3a.gif);;
 }
 
 /* HTML5 display definitions
@@ -487,8 +492,7 @@ hr {
  * MUI Container module
  */
 .mui-container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-left:5%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -1488,12 +1492,12 @@ hr {
 
 .mui-text-headline, h2 {
   font-weight: 400;
-  font-size: 40px;
-  line-height: 42px;
+  font-size: 46px;
+  line-height: 50px;
   color:#3F51B5;
 }
 
-.mui-text-headline.mui-text-black, h2.mui-text-black {
+.mui-text-headline.mui-text-black, .mui-text-black {
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -1643,12 +1647,12 @@ hr {
  * MUI Panel module
  */
 .mui-panel {
-  padding: 25px;
-  margin-bottom: 20px;
+  padding: 30px;
+  margin-bottom: 22px;
   border-radius: 0;
   background-color: #FFF;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.12);
-}
+ }
 
 .mui-panel:before,
 .mui-panel:after {
