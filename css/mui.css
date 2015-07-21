@@ -26,7 +26,7 @@ html {
  */
 body {
   margin:auto;
-  background-image:url(/images/background3a.png);
+  background-imag:url(/images/background3a.gif);;
 }
 
 /* HTML5 display definitions
@@ -423,11 +423,11 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
-  font-size: 14px;
+  font-size: 35px;
   font-weight: 400;
   line-height: 1.429;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #FFF;
+  background-color: #EEEEEE;
 }
 
 input,
@@ -1464,9 +1464,12 @@ hr {
 
 .mui-text-display1, h1 {
   font-weight: 400;
-  font-size: 34px;
-  line-height: 40px;
-  color: rgba(0, 0, 0, 0.54);
+  font-size: 56px;
+  line-height: 100px;
+  color:#2196F3;
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
 }
 
 .mui-text-display1.mui-text-black, h1.mui-text-black {
@@ -1483,8 +1486,8 @@ hr {
 
 .mui-text-headline, h2 {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 40px;
+  line-height: 42px;
   color:#3F51B5;
 }
 
@@ -1502,9 +1505,9 @@ hr {
 
 .mui-text-title, h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 28px;
-  color: rgba(0, 0, 0, 0.87);
+  color: #5C6BC0;
 }
 
 .mui-text-title.mui-text-black, h3.mui-text-black {
@@ -1638,11 +1641,11 @@ hr {
  * MUI Panel module
  */
 .mui-panel {
-  padding: 15px;
+  padding: 25px;
   margin-bottom: 20px;
   border-radius: 0;
   background-color: #FFF;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .mui-panel:before,
@@ -1967,6 +1970,7 @@ fieldset[disabled] .mui-btn-accent.mui-btn-flat:active {
   border-radius: 50%;
   color: #FFF;
   background-color: #FF4081;
+  text-align:center
 }
 
 .mui-btn-floating:hover,
@@ -2814,6 +2818,7 @@ th {
 
 .mui-text-center {
   text-align: center !important;
+  size:
 }
 
 .mui-text-justify {
