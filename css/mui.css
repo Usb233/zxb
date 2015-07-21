@@ -12,7 +12,8 @@ html {
   /* 2 */
 }
 
-
+#foot {width:16%;
+	   margin-left:auto;}
 
 
 
@@ -1463,8 +1464,9 @@ hr {
 }
 
 .mui-text-display1, h1 {
+  font-family: fantasy;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 60px;
   line-height: 100px;
   color:#2196F3;
   margin-left:auto;
