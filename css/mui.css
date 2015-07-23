@@ -24,7 +24,7 @@ span {color:#2196F3}
   padding: 25px;
   margin-bottom: 22px;
   border-radius: 0;
-  background-color: #FFF;
+  background-color: #4078C2;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.12);
  }
 
@@ -33,12 +33,140 @@ span {color:#2196F3}
 
 #boxl {height:300px;}
 
+.mui-btn-floating-1 {
+  position: relative;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  border-radius: 50%;
+  color: #FFF;
+  background-color: #4078c2;
+  text-align:center;
+  font-size:30px;
+}
 
 
 
 
 
 /*===========分割线===========*/
+
+/*==========side nav==========*/
+        #menu_smartphone
+        {
+            height: 100%;
+            position: absolute;
+            background: #f9f9f9;
+            top: 0;
+            bottom: 0;
+            left: -570px;
+            width: 570px;
+			position:absolute;
+			z-index:10;
+        }
+        #menu_smartphone ul
+        {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            color: #999999;
+        }
+        #menu_smartphone ul li
+        {
+            height: 70px;
+            padding-left: 10px;
+            line-height: 70px;
+        }
+        #menu_smartphone ul li:hover
+        {
+            background: #f7f7f7;
+        }
+        #menu_smartphone ul li a
+        {
+            color: #999999;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 25px;
+        }
+        .background_profil
+        {
+            background-image: url(/images/fond.png);
+            height: 240px;
+        }
+        .pics_profil
+        {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-size: cover;
+            background-image: url(/images/welcome.png);
+            margin-top: -65px;
+        }
+        .name_profil
+        {
+            font-size: 37px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            color: #666666;
+            margin-top: -50px;
+            margin-left: 140px;
+            margin-bottom: 40px;
+        }
+        .top
+        {
+            background-color: #e51c23;
+            height: 70px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            line-height: 70px;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Roboto';
+            padding-left: 10px;
+            text-align: left;
+        }
+        #grey_back
+        {
+            display: none;
+            background-color: #000000;
+            opacity: 0.7;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .card
+        {
+            width: 90%;
+            height: 300px;
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 20px;
+            color: #666666;
+            font-weight: 300;
+            font-size: 36px;
+            text-align: center;
+            font-family: 'Roboto';
+            box-shadow: 0 0 2px #999999;
+        }
+        .menu_btn
+        {
+            cursor: pointer;
+            left: 0px;
+            margin-top: 15px;
+			margin-left:900px;
+			border-radius: 15px;
+         }
+ /*==========================*/
+
+
+
+
 /**
  * Remove default margin.
  */
@@ -1485,7 +1613,7 @@ hr {
   font-weight: 400;
   font-size: 60px;
   line-height: 70px;
-  color:#2196F3;
+  color:#ffffff;
   width:70%;
   margin:auto;
 }
@@ -1696,8 +1824,6 @@ hr {
   display: inline-block;
   height: 36px;
   padding: 0 26px;
-  margin-top: 6px;
-  margin-bottom: 6px;
   border: none;
   border-radius: 2px;
   cursor: pointer;

@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="theme-color" content="#4078C2">
+    <meta name="theme-color" content="#4078C2" charset="UTF-8">
 	<link href="css/mui.css" rel="stylesheet" type="text/css" />
-    <script src="js/mui.js"></script>
+    <!----导入mui---->
+	<script src="js/mui.js"></script>
+	<!--==========-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>zxb's page</title>
+    <style class="cp-pen-styles"></style>
   </head>
  
   <body>
-    <div class="topbar"><h1>welcome to zxb's page</h1></div>
+ 
+<!--===========menu============-->
+	<div style="position: relative; overflow: hidden;">
+	  <div class="topbar">
+		<div id="menu" class="menu_btn mui-btn mui-btn-floating">+</div> 
+		<h1>welcome to zxb's page</h1>
+	  </div>
+	  <div id="grey_back">&nbsp;</div>
+	  <div id="menu_smartphone" class="menu_mobile_app" align="left">
+		<ul style="overflow-y: auto;">
+		  <div class="background_profil"></div>
+		  <div class="pics_profil"></div>
+		  <div class="name_profil mui-text-center">_(:з」∠)_</div>
+		  <li><a href="#">MENU 1</a></li>
+		  <li><a href="#">MENU 2</a></li>
+		  <li><a href="#">MENU 3</a></li>
+		  <li><a href="#">MENU 4</a></li>
+		</ul>
+	  </div>
+	   
+<!--============================-->   
 	
 	  <div class="mui-panel">
-		<h2>This is a material design card.</h2>
-	    <h2>Here are two examples of a floating button.</h2>
-	    <div class="mui-btn mui-btn-floating">+</div>              
+		<h2>This is some material design card.</h2>
+	    <h2>Here is some example of a floating button.</h2>
+	  <!--按钮-->         
 		  <p>Click here to view Google's presentation about <span>material design card</span> :</p>
           <a href="https://www.google.com/design/spec/components/cards.html"><button class="mui-btn mui-btn-primary mui-btn-raised">card</button></a>
 	  </div>
-	
+	  <!--====-->
 	  <div class="mui-panel">
 		<h2 id="head">摘录</h2>
 	      <p id="main">唯一不可阻挡的是时间，它像一把利刃，无声地切开了坚硬和柔软的一切，恒定地向前推进着，没有任何东西能够使它的行进产生丝毫颠簸，它却改变着一切。</p>
@@ -40,9 +64,49 @@
 		  <p>中国电信CDMA-2000(基于ANSI-41核心网) 上行1920--1935MHZ；下行2110-2125MHZ.</p>       
       </div>
 	
-	  <div class="mui-panel"><p>_(:з」∠)_你是儿子</p></div>
+	  <div class="mui-panel"><p>233333</p></div>
 	  <div class="mui-panel" id="boxl"></div>
 	  <div class="mui-panel" id="boxl"></div>
+	</div>
 	
+ <!--==========side nav脚本===========-->
+	<script src="/scripts/2bc/_gg_970_90.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var isMenuOpen = false;
+
+            $('.menu_btn').click(function () {
+                if (isMenuOpen == false) {
+                    $("#menu_smartphone").clearQueue().animate({
+                        left: '0px'
+                    });
+                    $("#grey_back").fadeIn('fast');
+                    $(this).fadeOut(200);
+                    $(".close").fadeIn(300);
+
+                    isMenuOpen = true;
+                }
+            });
+            $('#grey_back').click(function () {
+                if (isMenuOpen == true) {
+                    $("#menu_smartphone").clearQueue().animate({
+                        left: '-570px'
+                    });
+                    $("#page").clearQueue().animate({
+                        "margin-left": '0px'
+                    });
+                    $("#grey_back").fadeOut('fast');
+                    $(this).fadeOut(200);
+                    $(".menu_btn").fadeIn(300);
+
+                    isMenuOpen = false;
+                }
+            });
+        });
+    </script>
+<!--==================================-->
+  
   </body>
 </html>
