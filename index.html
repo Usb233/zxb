@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="theme-color" content="#4078C2" charset="UTF-8">
-	<link href="css/mui.css" rel="stylesheet" type="text/css" />
+    <meta name="theme-color" content="#4078C2" charset="UTF-8"/>
+	<link href="css/mui.css" rel="stylesheet" type="text/css"/>
     <!--==导入mui==-->
 	<script src="js/mui.js"></script>
 	<!--导入Google icon-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 	<title>zxb's page</title>
   </head>
  
-  <body>
+  <body vlink="#72ff46">
  
 <!--===========menu============-->
 	<div style="position: relative; overflow: hidden;">
@@ -23,7 +23,7 @@
 		<ul style="overflow-y: auto;">
 		  <div class="background_profil"></div>
 		  <div class="pics_profil"></div>
-		  <div class="name_profil mui-text-center"></div>
+		  <div class="name_profil"></div>
 		  <li><a href="#">MENU 1</a></li>
 		  <li><a href="#">MENU 2</a></li>
 		  <li><a href="#">MENU 3</a></li>
@@ -92,7 +92,7 @@
             $('#grey_back').click(function () {
                 if (isMenuOpen == true) {
                     $("#menu_smartphone").clearQueue().animate({
-                        left: '-570px'
+                        left: '-60%'
                     });
                     $("#page").clearQueue().animate({
                         "margin-left": '0px'

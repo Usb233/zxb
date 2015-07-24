@@ -25,7 +25,8 @@ span {color:#2196F3}
   margin-bottom: 22px;
   border-radius: 0;
   background-color: #4078C2;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 13px 18px 0 rgba(0, 0, 0, 0.16), 0 0px 18px 0 rgba(0, 0, 0, 0.12);
+  height:180px;
  }
 
 .mui-panel p {font-size:14px;}
@@ -46,40 +47,38 @@ span {color:#2196F3}
             background: #f9f9f9;
             top: 0;
             bottom: 0;
-            left: -570px;
-            width: 570px;
+            left: -60%;
+            width: 60%;
 			position:absolute;
 			z-index:10;
         }
         #menu_smartphone ul
         {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            color: #999999;
+            padding: 0px;
+            margin: 0px;
         }
         #menu_smartphone ul li
         {
-            height: 70px;
-            padding-left: 10px;
-            line-height: 70px;
+            height: 200px;
+            line-height: 200px;
+	
         }
         #menu_smartphone ul li:hover
         {
             background: #f7f7f7;
         }
         #menu_smartphone ul li a
-        {
-            color: #999999;
+        {   
             text-decoration: none;
             font-family: 'Roboto';
             font-weight: 400;
-            font-size: 25px;
+            font-size: 38px;
+			margin-left:50px;
         }
         .background_profil
         {
             background-image: url(/images/fond.png);
-            height: 240px;
+            height: 300px;
         }
         .pics_profil
         {
@@ -142,13 +141,10 @@ span {color:#2196F3}
         .menu_btn
         {
             cursor: pointer;
-            left: 0px;
-            margin-top: 15px;
-			margin-left:900px;
 			border-radius: 15px;
 			position:fixed;
-            left:-80px;
-            top:150px;
+            left:850px;
+            top:115px;
          }
  /*==========================*/
 
@@ -160,7 +156,6 @@ span {color:#2196F3}
  */
 body {
   margin:auto;
-  background-imageeeeee:url(/images/background3a.gif);;
 }
 
 /* HTML5 display definitions
@@ -1599,11 +1594,12 @@ hr {
 .mui-text-display1, h1 {
   font-family: fantasy;
   font-weight: 400;
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 70px;
+  line-height: 0px;
   color:#ffffff;
-  width:70%;
-  margin:auto;
+  width:80%;
+  margin-left:auto;margin-right:auto;
+  
 }
 
 .mui-text-display1.mui-text-black, h1.mui-text-black {
@@ -2097,16 +2093,16 @@ fieldset[disabled] .mui-btn-accent.mui-btn-flat:active {
 
 .mui-btn-floating {
   position: relative;
-  z-index: 1;
-  width: 55px;
-  height: 55px;
+  z-index: 10;
+  width: 75px;
+  height: 75px;
   line-height: 55px;
-  padding: 0;
+  padding: 10px;
   border-radius: 50%;
   color: #FFF;
   background-color: #FF4081;
   text-align:center;
-  font-size:30px;
+  font-size:40px;
 }
 
 .mui-btn-floating:hover,
