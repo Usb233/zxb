@@ -77,7 +77,7 @@ span {color:#2196F3}
         }
         .background_profil
         {
-            background-image: url(/images/fond.png);
+            background-image: url(../images/fond.png);
             height: 300px;
         }
         .pics_profil
