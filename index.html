@@ -17,9 +17,8 @@
 <!--===========menu============-->
 	<div style="position: relative; overflow: hidden;">
 	  <div class="topbar">
-		<div id="menu" class="menu_btn mui-btn mui-btn-floating">+</div> 
+		<div id="menu" class="menu_btn mui-btn mui-btn-floating"><i class="material-icons md-48">menu</i></div> 
 		<h1 class="animated bounce">welcome to zxb's page</h1>
-		12853lopd
 	  </div>
 	  <div id="grey_back">&nbsp;</div>
 	  <div id="menu_smartphone" class="menu_mobile_app" align="left">
@@ -36,8 +35,12 @@
 	   
 <!--============================-->  
 	  <div class="mui-panel">
+		<h2>待完成项目</h2>
+	  </div>
+  
+      <div class="mui-panel">
 		<h2>This is some material design card.</h2>
-		<i class="material-icons md-48">menu</i><i class="material-icons md-48">face</i>
+		<i class="material-icons md-48">face</i>
 	    <h2>Here is some example of a floating button.</h2>
 	  <!--按钮-->         
 		  <p>Click here to view Google's presentation about <span>material design card</span> :</p>
@@ -94,7 +97,7 @@
             $('#grey_back').click(function () {
                 if (isMenuOpen == true) {
                     $("#menu_smartphone").clearQueue().animate({
-                        left: '-60%'
+                        left: '-46%'
                     });
                     $("#page").clearQueue().animate({
                         "margin-left": '0px'
