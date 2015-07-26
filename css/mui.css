@@ -147,7 +147,7 @@ span {color:#2196F3}
 			border-radius: 15px;
 			position:fixed;
             left:85%;
-            top:115px;
+            top:-7px;
          }
  /*==========================*/
 
@@ -1601,7 +1601,7 @@ hr {
   line-height: 0px;
   color:#ffffff;
   width:80%;
-  margin-left:auto;margin-right:auto;
+  margin:auto;
   
 }
 
@@ -2952,7 +2952,8 @@ th {
 
 .mui-text-center {
   text-align: center !important;
-  size:
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .mui-text-justify {
