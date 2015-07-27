@@ -5,29 +5,51 @@
     <meta name="theme-color" content="#4078C2" charset="UTF-8"/>
     <!--==导入css==-->
 	<link href="css/mui.css" rel="stylesheet" type="text/css"/>
-	<link href="css/materialize.css" rel="stylesheet" type="text/css"/>
+	<link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
 	<!--导入animate.css(动作)-->
 	<link href="css/animate.css" rel="stylesheet" type="text/css"/>
 	<!--导入Google icon-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 	<!--====导入js=====-->
-	<script src="js/mui.js"></script>
-	<script src="js/materialize.js"></script>
-	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/mui.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
     <!--=====标题======-->
 	<title>zxb's page</title>
+	<!-- Angular Material CSS now available via Google CDN; version 0.10 used here -->
+    <link relll="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
+
+    <!-- Angular Material Dependencies -->
+    <script srccc="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script srccc="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script srccc="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
   </head>
  
   <body>
 	
+	
+    <!--========top=========-->
+	<div class="topbar">
+	  <h1 class="animated bounce" id="center">welcome to zxb's page</h1>
+	  <div id="menu" class="menu_btn mui-btn mui-btn-floating"><i class="material-icons md-48">menu</i></div> 
+    </div>
+	<!--========TEST========-->
+	
+
+
+    <!-- Angular Material Javascript now available via Google CDN; version 0.10 used here -->
+    <script srccc="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js"></script>
+	
+	
+	  
+	
+	
+	
+	  
+<div style="position: relative; overflow: hidden;">
 <!--===========menu============-->
-	<div style="position: relative; overflow: hidden;">
-	  <div class="topbar">
-		<h1 class="animated bounce mui-text-center">welcome to zxb's page</h1>
-		<div id="menu" class="menu_btn mui-btn mui-btn-floating"><i class="material-icons md-48">menu</i></div> 
-	  </div>
-	  <div id="grey_back">&nbsp;</div>
-	  <div id="menu_smartphone" class="menu_mobile_app" align="left">
+	    <div id="grey_back">&nbsp;</div>
+	  <div id="menu_smartphone" class="menu-color" align="left">
 		<ul style="overflow-y: auto;">
 		  <div class="background_profil"></div>
 		  <div class="pics_profil"></div>
@@ -38,35 +60,34 @@
 		  <li><a href="#">23333</a></li>
 		</ul>
 	  </div>
-	   
 <!--============================-->  
-	  
-	  
-      <div class="mui-panel">
+      <div classs="mui-panel" id="box">
 		<h2>待完成项目</h2><div class="mui-btn mui-btn-primary">card </div>
 	  </div>
   
-      <div class="mui-panel">
+      <div classs="mui-panel" id="box">
 		<h2>This is some material design card.</h2>
 		<i class="material-icons md-48">face</i>
 	    <h2>Here is some example of a floating button.</h2>
-	  <!--按钮-->         
-		  <p>Click here to view Google's presentation about <span>material design card</span> :</p>
-          <a href="https://www.google.com/design/spec/components/cards.html"><button class="mui-btn mui-btn-primary mui-btn-raised">card</button></a>
-	  </div>
+		
+	    <p>Click here to view Google's presentation about <span>material design card</span> :</p>
+      <!--按钮-->
+		<a href="https://www.google.com/design/spec/components/cards.html"><button class="mui-btn mui-btn-primary mui-btn-raised">card</button></a>
 	  <!--====-->
-	  <div class="mui-panel">
+	  </div>
+	  
+	  <div classs="mui-panel" id="box">
 		<h2 id="head">摘录</h2>
 	      <p id="main">唯一不可阻挡的是时间，它像一把利刃，无声地切开了坚硬和柔软的一切，恒定地向前推进着，没有任何东西能够使它的行进产生丝毫颠簸，它却改变着一切。</p>
 		<cite><p id="foot">--〈〈三体〉〉</p></cite>
 	  </div>
 	 
-	  <div class="mui-panel">
+	  <div classs="mui-panel" id="box">
 	    <h2 id="head">chrome通知栏变色方法</h2>
 		<code id="code">&lt;meta name="theme-color" content="#4078c2"&gt;</code>
 	  </div>
 	
-	  <div class="mui-panel">
+	  <div classs="mui-panel" id="box">
 		<h2>信号频段</h2>
 		  <p>中国移动、联通、电信三家运营商语音和数据频段共用（其中中国移动和联通G网分900M和1800M);</p>
 	      <p>中国移动：GSM上下行（900M频段：上行885--909MHZ,下行930--954MHZ）；（1800M频段：上行为1710--1725MHZ,下行：1805--1820MHZ);</p>          
@@ -77,9 +98,9 @@
 		  <p>中国电信CDMA-2000(基于ANSI-41核心网) 上行1920--1935MHZ；下行2110-2125MHZ.</p>       
       </div>
 	
-	  <div class="mui-panel"><p>233333</p></div>
-	  <div class="mui-panel" id="boxl"></div>
-	  <div class="mui-panel" id="boxl"></div>
+	  <div classs="mui-panel" id="box"><p>233333</p></div>
+  <div classs="mui-panel" id="box"></div>
+	  <div classs="mui-panel" id="box">k</div>
 	</div>
 	
  <!--==========side nav脚本===========-->
@@ -98,14 +119,15 @@
                     $("#grey_back").fadeIn('fast');
                     $(this).fadeOut(200);
                     $(".close").fadeIn(300);
-
+				    
+                   
                     isMenuOpen = true;
                 }
             });
             $('#grey_back').click(function () {
                 if (isMenuOpen == true) {
                     $("#menu_smartphone").clearQueue().animate({
-                        left: '-46%'
+                        left: '-80%'
                     });
                     $("#page").clearQueue().animate({
                         "margin-left": '0px'
@@ -113,7 +135,8 @@
                     $("#grey_back").fadeOut('fast');
                     $(this).fadeOut(200);
                     $(".menu_btn").fadeIn(300);
-
+                    
+					
                     isMenuOpen = false;
                 }
             });

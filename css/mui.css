@@ -22,20 +22,60 @@ span {color:#2196F3}
 
 .topbar {
   padding: 25px;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
   border-radius: 0;
   background-color: #4078C2;
   box-shadow: 0 13px 18px 0 rgba(0, 0, 0, 0.16), 0 0px 18px 0 rgba(0, 0, 0, 0.12);
   height:180px;
  }
 
-.mui-panel p {font-size:14px;}
-.mui-panel code {font-size:13px; }
+.mui-panel p {font-size:20px;}
+.mui-panel code {font-size:10px; }
 
 #boxl {height:300px;}
 
 .material-icons.md-48 { font-size: 46px; }
 
+
+
+#center {margin-right:auto;margin-left:auto;}
+
+.mui-btn-floating:hover{transform: scale(1.2,1.2);}
+
+#box {
+  position: relative;
+  width: 90%;
+  background: #fff;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2em 1.5em;
+  color: rgba(0,0,0, .8);
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.5;
+  margin: 60px auto;
+  box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+#box:before, #box:after {
+  z-index: -1; 
+  position: absolute; 
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 90%; 
+  top: 70%;
+  max-width:300px;
+  background: rgba(0, 0, 0, 0.7); 
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  transform: rotate(-3deg);
+}
+
+#box:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
 
 
 
@@ -44,15 +84,15 @@ span {color:#2196F3}
 /*==========side nav==========*/
         #menu_smartphone
         {
-            height: 100%;
-            position: absolute;
+		    height: 100%;
             background: #f9f9f9;
             top: 0;
             bottom: 0;
-            left: -46%;
-            width: 46%;
-			position:absolute;
-			z-index:10;
+            left: -80%;
+            width: 60%;
+			position:fixed;
+			z-index:9;
+			box-shadow:5px 0px 20px #223;
         }
         #menu_smartphone ul
         {
@@ -63,13 +103,14 @@ span {color:#2196F3}
         {
             height: 200px;
             line-height: 200px;
-	
         }
+		
         #menu_smartphone ul li:hover
         {
-            background: #4078c2;
+		    background: #4078c2;
 			text-shadow:0px 1px 1px;#0D47A1;
         }
+		
         #menu_smartphone ul li a
         {   
             text-decoration: none;
@@ -121,11 +162,11 @@ span {color:#2196F3}
         {
             display: none;
             background-color: #000000;
-            opacity: 0.7;
+            opacity: 0.65;
             width: 100%;
             height: 100%;
-            position: absolute;
-            top: 0;
+            position: fixed;z-index:9;
+			top: 0;
         }
         .card
         {
@@ -559,7 +600,8 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #EEEEEE;
+  background-colorrr: #EEEEEE;
+  background:url(../images/background4.png) fixed;
 }
 
 input,
@@ -590,6 +632,7 @@ a:focus {
 
 p {
   margin: 10px 0 10px;
+
 }
 
 ul,
@@ -1602,7 +1645,6 @@ hr {
   color:#ffffff;
   width:80%;
   margin:auto;
-  
 }
 
 .mui-text-display1.mui-text-black, h1.mui-text-black {
@@ -1781,7 +1823,7 @@ hr {
   max-width:90%;
   margin-left:auto;
   margin-right:auto;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 0px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.16), 3px 3px 3px 3px rgba(0, 0, 0, 0.12);
  }
 
 .mui-panel:before,
@@ -2095,16 +2137,17 @@ fieldset[disabled] .mui-btn-accent.mui-btn-flat:active {
 }
 
 .mui-btn-floating {
-  position: relative;
+  position: fixed;
   z-index: 10;
   width: 75px;
   height: 75px;
   line-height: 55px;
-  padding: 15px;
+  padding: 15px;padding-left:13px;
   border-radius: 50%;
   color: #FFF;
   background-color: #FF4081;
-  padding-left:13px;
+  top:10%;
+  box-shadow:0px 6px 8px #999;
 }
 
 .mui-btn-floating:hover,
