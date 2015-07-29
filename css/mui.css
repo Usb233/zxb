@@ -113,6 +113,9 @@ img {width:100%;}
 }
 
 cite {font-size:40px;}
+
+.footbar {height:400px;
+          background-color:#fcba54;}
 /*===========分割线============*/
 
 /*==========side nav==========*/
@@ -226,8 +229,48 @@ cite {font-size:40px;}
          }
  /*==========================*/
 
-
-
+ /***material button***/
+.onoffswitch {
+    position: relative; width: 55px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 0px solid #FFFFFF; border-radius: 31px;
+    background-color: #9E9E9E;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 31px; margin: -5.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 31px;
+    border-radius: 31px;
+    box-shadow: 0 6px 12px 0px #757575;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #42A5F5;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #42A5F5;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+    background-color: #2196F3; 
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}
+/*********************/
+ 
+ 
+ 
+ 
 
 /**
  * Remove default margin.
@@ -2020,6 +2063,7 @@ fieldset[disabled] .mui-btn-default.mui-btn-flat:active {
 .mui-btn-primary {
   color: #FFF;
   background-color: #2196F3;
+  margin-top:20px;
 }
 
 .mui-btn-primary:hover,
@@ -2342,8 +2386,8 @@ abbr[title] {
 }
 
 h1, h2, h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 12px;
 }
 
 h4, h5, h6 {
