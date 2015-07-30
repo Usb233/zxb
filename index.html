@@ -12,9 +12,10 @@
 	<!--====导入js=====-->
 	<script type="text/javascript" src="js/mui.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/my.js"></script>
     <!--=====标题======-->
 	<title>zxb's page</title>
-	  </head>
+  </head>
  
   <body>
     <!--========top=========-->
@@ -22,14 +23,10 @@
 	  <h1 class="animated bounce" id="center">Hello World</h1>
 	  <div id="menu" class="menu_btn mui-btn mui-btn-floating animated zoomIn"><i class="material-icons md-48">menu</i></div> 
     </div>
-	<!--========TEST========-->
-	
+	<!--=====TEST=====-->
 
 	
-	  
-	  
-	
-	<!--=====================-->
+	<!--==============-->
     <div style="position: relative; overflow: hidden;">
       <!--menu-->
 	  <div id="grey_back">&nbsp;</div>
@@ -56,7 +53,7 @@
 		  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
 	      <label class="onoffswitch-label" for="myonoffswitch"></label>
 		</div>
-		<div class="mui-btn mui-btn-primary margin">card</div>
+		<div class="mui-btn mui-btn-primary mui-btn-raised">card</div>
 		<!--===-->
 		<h2>Don't care about these grammatical mistakes😂.</h2>
 	    <p>Click here to view Google's presentation about <span>material design card</span> :</p>
@@ -91,49 +88,15 @@
 	</div>
     <!--=============尾部================-->
 	<div class="footbar">
-	  
-	  
-	</div>
-    <!--==========side nav脚本===========-->
-	<script src="/scripts/2bc/_gg_970_90.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var isMenuOpen = false;
-
-            $('.menu_btn').click(function () {
-                if (isMenuOpen == false) {
-                    $("#menu_smartphone").clearQueue().animate({
-                        left: '0px'
-                    });
-                    $("#grey_back").fadeIn('fast');
-                    $(this).fadeOut(200);
-                    $(".close").fadeIn(300);
-				    
-                   
-                    isMenuOpen = true;
-                }
-            });
-            $('#grey_back').click(function () {
-                if (isMenuOpen == true) {
-                    $("#menu_smartphone").clearQueue().animate({
-                        left: '-80%'
-                    });
-                    $("#page").clearQueue().animate({
-                        "margin-left": '0px'
-                    });
-                    $("#grey_back").fadeOut('fast');
-                    $(this).fadeOut(200);
-                    $(".menu_btn").fadeIn(300);
-                    
-					
-                    isMenuOpen = false;
-                }
-            });
-        });
-    </script>
-    <!--==================================-->
+	  <div class="footh1">Connect</div>
+	  <div class="footh2">qq: 807564472<br/>twitter: sb U<br/>phone:18927120831</div>
+		<div class="footh1">Source</div>
+		<div class="footh2">view source on github:  <br/>
+	     <a href="https://github.com/Usb233/zxb"><span class="mui-btn mui-btn-primary mui-btn-raised big">source</span></a>
+	    </div>
+    </div>
+    <div class="footerbar">© 2014-2015 Usb233, All rights reserved. MIT License</div>
+    
   
   </body>
 </html>

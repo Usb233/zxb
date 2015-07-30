@@ -31,8 +31,6 @@ span {color:#2196F3}
   height:180px;
  }
 
-
-
 #boxl {height:300px;}
 
 .material-icons.md-48 { font-size: 46px; }
@@ -114,8 +112,32 @@ img {width:100%;}
 
 cite {font-size:40px;}
 
-.footbar {height:400px;
-          background-color:#fcba54;}
+.footbar {height:1445px;
+          background-color:#26A69A;
+		  padding-top:20px;
+		  padding-left:20px;
+	 }
+.footh1 {color:#fff;
+         font-size:70px;
+		 font-weight:500;
+		 font-family:sans-serif;
+}
+.footh2 {color:#fff;
+         font-size:50px;
+		 font-weight:100;
+}
+.footerbar{height:100px;
+        background-color:#009688;
+		font-size:34px;
+        color:#fff;
+		font-weight:100;
+		text-align:center;
+		padding-top:22px;
+		font-family:sans-serif;
+	}
+	
+.big {height:60px!important;
+      padding-top:10px!important;}
 /*===========分割线============*/
 
 /*==========side nav==========*/
